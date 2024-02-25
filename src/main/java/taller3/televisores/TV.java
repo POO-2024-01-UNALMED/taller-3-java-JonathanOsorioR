@@ -60,7 +60,10 @@ public class TV {
 	public void setControl(Control control){
 		this.control = control;
 	}
-	static int getNumTV() {
+	public static void setNumTV(int numTV) {
+		TV.numTV=numTV;
+	}
+	public static int getNumTV() {
 		return numTV;
 	}
 	public void turnOn(){
