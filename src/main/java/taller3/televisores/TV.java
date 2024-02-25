@@ -48,7 +48,7 @@ public class TV {
 	
 	public void setVolumen(int volumen){
 		if (estado == true){
-			if (volumen<=7&&volumen>=7) {
+			if (volumen<=7&&volumen>=0) {
 				this.volumen = volumen;
 			}
 		}	
