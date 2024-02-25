@@ -7,11 +7,11 @@ private String nombre;
 		this.nombre=nombre;
 	}
 	
-	public String getMarca() {
+	public String getNombre() {
 		return nombre;
 	}
 	
-	public void setMarca(String nombre){
+	public void setNombre(String nombre){
 		this.nombre = nombre;
 	}
 
