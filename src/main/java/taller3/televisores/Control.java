@@ -42,10 +42,10 @@ public class Control {
     	this.tv=tv;
     	tv.setControl(this);
     }
-    public void settv(TV tv) {
+    public void setTv(TV tv) {
     	this.tv=tv;
     }
-    public TV gettv() {
+    public TV getTv() {
     	return tv;
     }
 }
